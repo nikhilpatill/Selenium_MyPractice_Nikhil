@@ -23,16 +23,36 @@ public class MultipleWebElements2 {
 		List<WebElement> name = driver.findElements(By.xpath("//li[@class='dropdown']/a"));
 		// dekstop click
 
-		for (int i = 1; i < name.size(); i++) {
-
-			if (name.get(i).getAttribute("class").contains("open")) {
-				System.out.println("selected tab=" + name.get(i).getText());
-			} else {
-
-				System.out.println("not selected tab=" + name.get(i).getText());
+       System.out.println("size of multiple elemets"+name.size());		
+		for(int i=0;i<name.size();i++)
+		{
+			
+			System.out.println(name.get(i).getText());
+			
+			if(name.get(i).getAttribute("class").contains("open"))
+			{
+				System.out.println("selected");
 			}
-
+			else 
+			{
+				System.out.println("not selecetd ");
+			}
+			
 		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
 	}
 
 }

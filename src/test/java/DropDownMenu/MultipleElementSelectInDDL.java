@@ -1,5 +1,6 @@
 package DropDownMenu;
 
+import java.nio.channels.Selector;
 import java.util.List;
 
 import org.BaseUtilityy.startUp;
@@ -7,6 +8,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.Select;
 
 public class MultipleElementSelectInDDL {
 
@@ -22,13 +24,7 @@ public class MultipleElementSelectInDDL {
         driver.findElement(By.xpath("//div[@id=\"react-select-4-option-0\"]")).click();
         
         
-     List<WebElement>name=driver.findElements(By.cssSelector("[class=\"css-yt9ioa-option\"]"));
-     for(int i=1;i<name.size();i++)
-     {
-    	 System.out.println(name.get(i).getText());
-     }
-        
-        
+       
         
 	}
 

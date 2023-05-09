@@ -22,39 +22,20 @@ public class DropDownMenu_TestCase {
 
 		
 		  //find out webelemet
-         WebElement ele =driver.findElement(By.id("cars"));
-     //create object of select  option
-		Select option= new Select(ele);
-		
-	List<WebElement> multi= option.getAllSelectedOptions();
-		  int no=multi.size();
-		  System.out.println("size of selected option "+no);
-		if(multi.isEmpty())
-		{
-			System.out.println("not selected ");
-		}else
-		{
-			System.out.println("selected casrs ");
-		}
+         WebElement ele =driver.findElement(By.xpath("//div[text()=\"Select Option\"]"));
+         ele.click();
+         
+         WebElement opt =driver.findElement(By.cssSelector("div[class=\" css-1s9izoc\"]"));
+         
+         List<WebElement>name=(List<WebElement>) driver.findElement(By.cssSelector("div[class=\" css-1s9izoc\"]"));
+         
+        
+   
 		
 		
 		
 		
-		
-		
-		
-	/*	List<WebElement> mul =option.getOptions();
-	int size=	mul.size();
-	System.out.println("size of the dropdown "+size);
-		for(int i=0;i<mul.size();i++)
-		{
-			  System.out.println("size of selected option "+size);
-			//WebElement ele1=mul.get(i);
-			System.out.println(mul.get(i).getText());
-		}
-		
-		*/
-		
+	
 		
 		
 		

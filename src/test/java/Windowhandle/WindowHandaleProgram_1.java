@@ -9,8 +9,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 public class WindowHandaleProgram_1 {
-
+	
+	
 	public static void main(String[] args) {
+	
 
 		startUp sb = new startUp();
 
@@ -24,7 +26,7 @@ public class WindowHandaleProgram_1 {
 		if (PId1.equals(PId2)) {
 			System.out.println("this is the same ");
 		}*/
-
+    
 		
 	
 		driver.findElement(By.id("tabButton")).click();
@@ -43,7 +45,7 @@ public class WindowHandaleProgram_1 {
 		System.out.println(name);
 			
 		
-	
+
 		 
 		//while (iterator.hasNext()) {
 			//String n = iterator.next();

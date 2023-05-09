@@ -20,6 +20,7 @@ public class prompBox {
         String name= alt.getText();
         System.out.println(name);
     	alt.accept();
+    	//alt.dismiss();
     	
     	
     	

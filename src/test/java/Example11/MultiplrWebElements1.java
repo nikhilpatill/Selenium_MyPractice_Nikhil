@@ -37,6 +37,9 @@ public class MultiplrWebElements1 {
 				System.out.println("not selected tab=" + name.get(i).getText());
 			}
 		}
+		
+		
+	
 		// wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.cssSelector("#logoutLink"))));
 
 	}

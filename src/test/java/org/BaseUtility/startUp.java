@@ -85,6 +85,7 @@ public class startUp {
 		} else if (bname.equalsIgnoreCase("ed") || bname.equalsIgnoreCase("edge")) {
 			EdgeOptions option = new EdgeOptions();
 			option.addArguments("start-maximized");
+			//driver.manage().window().maximize();
 			driver = new EdgeDriver();
 
 		} else {
