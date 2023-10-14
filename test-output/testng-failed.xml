@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Default test(failed)">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="Page_Object_model_TestCase.Loginpage_Testcase">
+      <class name="TestNGExamples.TestNGEx1">
         <methods>
-          <include name="BrowserClose"/>
-          <include name="varify_login_page"/>
-          <include name="BrowserInit"/>
+          <include name="varifyTitleWebPage"/>
         </methods>
-      </class> <!-- Page_Object_model_TestCase.Loginpage_Testcase -->
+      </class> <!-- TestNGExamples.TestNGEx1 -->
+      <class name="TestNGExamples.TestCase4">
+        <methods>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- TestNGExamples.TestCase4 -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

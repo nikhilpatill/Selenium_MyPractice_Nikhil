@@ -19,7 +19,7 @@ public class ActionClassExpample1 {
 		
 		
 		startUp sb = new startUp();
-		WebDriver driver = sb.startUp("ch", "https://demoqa.com/progress-bar");
+   WebDriver driver = sb.startUp("ch", "https://demoqa.com/progress-bar");
 
 	WebElement ele=	driver .findElement(By.xpath("//div[@role='progressbar']"));
 	

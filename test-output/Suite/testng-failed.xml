@@ -3,17 +3,16 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="TestNGExamples.AtitimeLoginTeseCase1001">
+      <class name="TestNGExamples.TestNGEx1">
         <methods>
-          <include name="LoginMethod"/>
-          <include name="VrifyTheLoginPage"/>
-          <include name="LogoutMethod"/>
-          <include name="VrifyTheLoginURL"/>
-          <include name="VrifyTheLoginTitle"/>
-          <include name="VrifyTheLoginFunctionality"/>
-          <include name="VrifyTheDashBordURL"/>
+          <include name="varifyTitleWebPage"/>
         </methods>
-      </class> <!-- TestNGExamples.AtitimeLoginTeseCase1001 -->
+      </class> <!-- TestNGExamples.TestNGEx1 -->
+      <class name="TestNGExamples.TestCase4">
+        <methods>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- TestNGExamples.TestCase4 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

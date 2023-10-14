@@ -61,10 +61,6 @@ public class startUp {
 		return ele.getText();
 	}
 
-	
-	
-
-
 
 	
 	public WebDriver startUp(String bname, String Url) {
